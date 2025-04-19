@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="curl_python_edu",
-    version="1.0.0425",
+    version="0.19.0425",
     author="Kelven Vilela",
     author_email="kelvenserejo@gmail.com",
     description="Description",
@@ -17,5 +17,5 @@ setup(
     url="my_github_repository_project_link"
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.8'
+    python_requires='>=3.11',
 )

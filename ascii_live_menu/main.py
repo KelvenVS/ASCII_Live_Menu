@@ -25,7 +25,6 @@ class Menu:
             "donut": lambda: get_ascii("donut"),
             "parrot": lambda: get_ascii("parrot"),
             "spidyswing": lambda: get_ascii("spidyswing"),
-            "dvd": lambda: get_ascii("dvd"),
             "playstation": lambda: get_ascii("playstation"),
             "batman-running": lambda: get_ascii("batman-running"),
             "clock": lambda: get_ascii("clock"),
