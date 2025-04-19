@@ -7,7 +7,7 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="curl_python_edu",
+    name="ascii_live_menu",
     version="0.19.0425",
     author="Kelven Vilela",
     author_email="kelvenserejo@gmail.com",
