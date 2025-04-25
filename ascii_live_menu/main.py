@@ -63,7 +63,10 @@ class Menu:
                 print("Opção inválida, tente novamente.")
             else:
                 self.menu_dict[menu_keys[option - 1]]()
+    
+def menu():
+    m = Menu()
+    m.exibir_menu()
         
-if __name__ == '__main__':
-    menu = Menu()
-    menu.exibir_menu()
+if __name__ == '__main__':       
+    menu()

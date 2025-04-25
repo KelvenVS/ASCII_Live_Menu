@@ -32,7 +32,7 @@ pip install ascii-live-menu
 Ou clone o repositório:
 
 ```bash
-git clone https://github.com/KelvenVS/ASCII_Live_Menu..git
+git clone https://github.com/KelvenVS/ASCII_Live_Menu.git
 cd ascii-live-menu
 python main.py
 ```
@@ -44,7 +44,12 @@ python main.py
 Após rodar o script, será exibido um menu numerado com todas as opções disponíveis. Basta digitar o número correspondente para ver a arte em ASCII.
 
 ```bash
-python -m ascii_live_menu
+python -m ascii_live_menu.main
+```
+
+Caso tenha instalado pelo Pypi
+```bash
+ascii_menu
 ```
 
 **Algumas opções disponíveis:**
