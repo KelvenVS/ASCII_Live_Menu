@@ -37,7 +37,7 @@ cd ascii-live-menu
 python main.py
 ```
 
-> **Requisitos:** Python 3.11+
+> **Requisitos:** Python 3.1+
 
 ## ▶️ Como Usar
 

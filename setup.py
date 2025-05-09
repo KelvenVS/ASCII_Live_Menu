@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
 
 setup(
     name="ascii_live_menu",
-    version="0.25.425",
+    version="0.26.525",
     author="Kelven Vilela",
     author_email="kelvenserejo@gmail.com",
     description="Description",
@@ -17,7 +17,7 @@ setup(
     url="https://github.com/KelvenVS/ASCII_Live_Menu.git",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.11',
+    python_requires='>=3.1',
         entry_points={
         "console_scripts": [
             "ascii_menu=ascii_live_menu.main:menu"
